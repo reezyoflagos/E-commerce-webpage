@@ -25,25 +25,44 @@ body{
         justify-content: space-between;
         .logo2{
             margin-right:60px;
+            @media(max-width:576px){
+                display: none;
+            }
 
         }
         .header3{
             display: flex;
             padding:0px 0px 20px 20px;
+            @media(max-width:576px){
+                display: none;
+            }
             .logo3{
                 margin-right:10px;
-               
+               @media (max-width:576px){
+                display: none;
+               }
             }
             
             
         }
-        
+        @media(max-width:576px){
+            // .logo{
+            //     // position: absolute;
+            //     // width:101px;
+            //     // height:48px;
+            //     // left:38px;
+            //     // top:35px;
+            //     // font-size:28px;
+            // }
+        }
     }
     .header4{
         margin-left:30px;
         background-size: cover;
         border-radius: 30px;
-        
+        @media(max-width:576px){
+            margin-top:10px;
+        }
     }
 }
 .card1{
@@ -51,6 +70,9 @@ body{
     margin-left:150px;
     margin-right:150px;
     background-color:#96Dbdb;
+    @media(max-width:576px){
+        display:none
+    }
     
     
     
@@ -59,7 +81,9 @@ body{
        width:389px;
        left:733px;
        top:120px;
-       
+       @media(max-width:576px){
+        display: none;
+    }
     
        .side1{
         margin-top:50px;
@@ -70,6 +94,9 @@ body{
         font-weight: 400;
         line-height:60px;
         color:#333333;
+        @media(max-width:576px){
+            display: none;
+        }
        }
        .side2{
         margin-top: 40px;
@@ -89,6 +116,9 @@ body{
     height: 0px;
     left:165px;
     top:892px;
+    @media(max-width:576px){
+        display: none;
+    }
 }
 .text2{
     position: absolute;
@@ -102,10 +132,15 @@ body{
     font-size:36px;
     line-height:40px;
     color:#333333;
+    @media(max-width:576px){
+        display: none;
+    }
     
 }
 .card3{
-
+    @media(max-width:576px){
+        display: none;
+    }
  
     .text3{
 
@@ -164,7 +199,9 @@ body{
     }
     
 }
-.type1{
+.type1{  @media(max-width:576px){
+    display: none;
+}
     h2{
        position: absolute; 
        width:169px;
@@ -196,6 +233,9 @@ body{
     margin-top:1170px;
     justify-content: center;
     margin-left:330px;
+    @media(max-width:576px){
+        display: none;
+    }
 
    
    
@@ -299,6 +339,9 @@ body{
             left:750px;
             top:1800px;
             background-color: #96Dbdb;
+            @media(max-width:576px){
+                display: none;
+            }
 
             .text7{
                     .big1{
@@ -358,7 +401,9 @@ body{
         }
 
     }
-    .type6{
+    .type6{  @media(max-width:576px){
+        display: none;
+    }
         h2{
            position: absolute; 
            width:169px;
@@ -388,6 +433,9 @@ body{
        height:270px;
        left:0px;
        top: 55px;
+       @media(max-width:576px){
+        display: none;
+    }
       
        
        
@@ -497,6 +545,9 @@ body{
                 left:750px;
                 top:2200px;
                 background-color: #96Dbdb;
+                @media(max-width:576px){
+                    display: none;
+                }
                 
     
                 .text9{
@@ -578,6 +629,9 @@ body{
                  top:20px;
                  height:0px;
                  }
+                 @media(max-width:576px){
+                    display: none;
+                }
             }
             .row1{
                 display: flex;
@@ -592,6 +646,9 @@ body{
                 top:2765px;
                 background-color: white;
                 box-shadow: 0px 4px 14px rgba(213, 213, 0.12);
+                @media(max-width:576px){
+                    display: none;
+                }
                 h1{
                     position: absolute;
                     width:150px;
@@ -653,6 +710,9 @@ body{
                 left:0px;
                 top:2679px;
                 background-color: #008080;
+                @media(max-width:576px){
+                    display: none;
+                }
             }
 
         }
@@ -670,6 +730,9 @@ body{
                 top:2770px;
                 background-color: white;
                 box-shadow: 0px 4px 14px rgba(213, 213, 0.12);
+                @media(max-width:576px){
+                    display: none;
+                }
                 h1{
                     position: absolute;
                     width:150px;
@@ -739,6 +802,9 @@ body{
                 top:3136px;
                 background-color: white;
                 box-shadow: 0px 4px 14px rgba(213, 213, 0.12);
+                @media(max-width:576px){
+                    display: none;
+                }
                 h1{
                     position: absolute;
                     width:150px;
@@ -808,6 +874,9 @@ body{
                 top:3136px;
                 background-color: white;
                 box-shadow: 0px 4px 14px rgba(213, 213, 0.12);
+                @media(max-width:576px){
+                    display: none;
+                }
                 h1{
                     position: absolute;
                     width:150px;
@@ -877,6 +946,9 @@ body{
                     top:3501px;
                     background-color: white;
                     box-shadow: 0px 4px 14px rgba(213, 213, 0.12);
+                    @media(max-width:576px){
+                        display: none;
+                    }
                     h1{
                         position: absolute;
                         width:150px;
@@ -946,6 +1018,9 @@ body{
                     top:3457px;
                     background-color:#96Dbdb;
                     box-shadow: 0px 4px 14px rgba(213, 213, 0.12);
+                    @media(max-width:576px){
+                        display: none;
+                    }
                     
                     .high{
                         position: absolute;
@@ -1025,6 +1100,9 @@ body{
                 
                 margin-top:1775px;
                 background: #008080;
+                @media(max-width:576px){
+                    display: none;
+                }
                 .foot1{
                     position: absolute;
                        top:3900px;

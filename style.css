@@ -29,17 +29,37 @@ body {
 .header .header2 .logo2 {
   margin-right: 60px;
 }
+@media (max-width: 576px) {
+  .header .header2 .logo2 {
+    display: none;
+  }
+}
 .header .header2 .header3 {
   display: flex;
   padding: 0px 0px 20px 20px;
 }
+@media (max-width: 576px) {
+  .header .header2 .header3 {
+    display: none;
+  }
+}
 .header .header2 .header3 .logo3 {
   margin-right: 10px;
+}
+@media (max-width: 576px) {
+  .header .header2 .header3 .logo3 {
+    display: none;
+  }
 }
 .header .header4 {
   margin-left: 30px;
   background-size: cover;
   border-radius: 30px;
+}
+@media (max-width: 576px) {
+  .header .header4 {
+    margin-top: 10px;
+  }
 }
 
 .card1 {
@@ -48,11 +68,21 @@ body {
   margin-right: 150px;
   background-color: #96Dbdb;
 }
+@media (max-width: 576px) {
+  .card1 {
+    display: none;
+  }
+}
 .card1 .text1 {
   position: absolute;
   width: 389px;
   left: 733px;
   top: 120px;
+}
+@media (max-width: 576px) {
+  .card1 .text1 {
+    display: none;
+  }
 }
 .card1 .text1 .side1 {
   margin-top: 50px;
@@ -63,6 +93,11 @@ body {
   font-weight: 400;
   line-height: 60px;
   color: #333333;
+}
+@media (max-width: 576px) {
+  .card1 .text1 .side1 {
+    display: none;
+  }
 }
 .card1 .text1 .side2 {
   margin-top: 40px;
@@ -81,6 +116,11 @@ body {
   left: 165px;
   top: 892px;
 }
+@media (max-width: 576px) {
+  .card2 {
+    display: none;
+  }
+}
 
 .text2 {
   position: absolute;
@@ -95,7 +135,17 @@ body {
   line-height: 40px;
   color: #333333;
 }
+@media (max-width: 576px) {
+  .text2 {
+    display: none;
+  }
+}
 
+@media (max-width: 576px) {
+  .card3 {
+    display: none;
+  }
+}
 .card3 .text3 .head {
   position: absolute;
   width: 290px;
@@ -147,6 +197,11 @@ body {
   top: 947px;
 }
 
+@media (max-width: 576px) {
+  .type1 {
+    display: none;
+  }
+}
 .type1 h2 {
   position: absolute;
   width: 169px;
@@ -175,6 +230,11 @@ body {
   margin-top: 1170px;
   justify-content: center;
   margin-left: 330px;
+}
+@media (max-width: 576px) {
+  .card4 {
+    display: none;
+  }
 }
 .card4 .text6 {
   background-color: #96Dbdb;
@@ -259,6 +319,11 @@ body {
   top: 1800px;
   background-color: #96Dbdb;
 }
+@media (max-width: 576px) {
+  .card4 .card5 {
+    display: none;
+  }
+}
 .card4 .card5 .text7 .big1 {
   margin-left: 50px;
   margin-top: 20px;
@@ -299,6 +364,11 @@ body {
   margin-left: 140px;
 }
 
+@media (max-width: 576px) {
+  .type6 {
+    display: none;
+  }
+}
 .type6 h2 {
   position: absolute;
   width: 169px;
@@ -326,6 +396,11 @@ body {
   height: 270px;
   left: 0px;
   top: 55px;
+}
+@media (max-width: 576px) {
+  .card12 {
+    display: none;
+  }
 }
 .card12 .text8 {
   position: absolute;
@@ -422,6 +497,11 @@ body {
   top: 2200px;
   background-color: #96Dbdb;
 }
+@media (max-width: 576px) {
+  .card12 .card7 {
+    display: none;
+  }
+}
 .card12 .card7 .text9 .big4 {
   margin-left: 50px;
   margin-top: 10px;
@@ -486,6 +566,11 @@ body {
   top: 20px;
   height: 0px;
 }
+@media (max-width: 576px) {
+  .grid .our2 {
+    display: none;
+  }
+}
 .grid .row1 {
   display: flex;
   flex-direction: row;
@@ -499,6 +584,11 @@ body {
   top: 2765px;
   background-color: white;
   box-shadow: 0px 4px 14px rgb(213, 213, 0);
+}
+@media (max-width: 576px) {
+  .grid .row1 {
+    display: none;
+  }
 }
 .grid .row1 h1 {
   position: absolute;
@@ -557,6 +647,11 @@ body {
   top: 2679px;
   background-color: #008080;
 }
+@media (max-width: 576px) {
+  .grid .row0 {
+    display: none;
+  }
+}
 
 .row2 {
   display: flex;
@@ -571,6 +666,11 @@ body {
   top: 2770px;
   background-color: white;
   box-shadow: 0px 4px 14px rgb(213, 213, 0);
+}
+@media (max-width: 576px) {
+  .row2 {
+    display: none;
+  }
 }
 .row2 h1 {
   position: absolute;
@@ -636,6 +736,11 @@ body {
   background-color: white;
   box-shadow: 0px 4px 14px rgb(213, 213, 0);
 }
+@media (max-width: 576px) {
+  .row3 {
+    display: none;
+  }
+}
 .row3 h1 {
   position: absolute;
   width: 150px;
@@ -699,6 +804,11 @@ body {
   top: 3136px;
   background-color: white;
   box-shadow: 0px 4px 14px rgb(213, 213, 0);
+}
+@media (max-width: 576px) {
+  .row4 {
+    display: none;
+  }
 }
 .row4 h1 {
   position: absolute;
@@ -764,6 +874,11 @@ body {
   background-color: white;
   box-shadow: 0px 4px 14px rgb(213, 213, 0);
 }
+@media (max-width: 576px) {
+  .row5 {
+    display: none;
+  }
+}
 .row5 h1 {
   position: absolute;
   width: 150px;
@@ -822,6 +937,11 @@ body {
   top: 3457px;
   background-color: #96Dbdb;
   box-shadow: 0px 4px 14px rgb(213, 213, 0);
+}
+@media (max-width: 576px) {
+  .row6 {
+    display: none;
+  }
 }
 .row6 .high {
   position: absolute;
@@ -888,6 +1008,11 @@ footer {
   padding: 100px;
   margin-top: 1775px;
   background: #008080;
+}
+@media (max-width: 576px) {
+  footer {
+    display: none;
+  }
 }
 footer .foot1 {
   position: absolute;
