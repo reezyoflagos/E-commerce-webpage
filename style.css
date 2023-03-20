@@ -1,0 +1,935 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(233, 255, 255, 0.5490196078);
+}
+
+.header {
+  display: flex;
+  margin: 30px;
+  justify-content: space-between;
+  margin-right: 100px;
+  margin-left: 120px;
+}
+.header .logo {
+  font-family: "Taviraj", serif;
+  font-size: 28px;
+  line-height: 48px;
+  font-style: normal;
+  color: #80753D;
+}
+.header .header2 {
+  display: flex;
+  justify-content: space-between;
+}
+.header .header2 .logo2 {
+  margin-right: 60px;
+}
+.header .header2 .header3 {
+  display: flex;
+  padding: 0px 0px 20px 20px;
+}
+.header .header2 .header3 .logo3 {
+  margin-right: 10px;
+}
+.header .header4 {
+  margin-left: 30px;
+  background-size: cover;
+  border-radius: 30px;
+}
+
+.card1 {
+  display: flex;
+  margin-left: 150px;
+  margin-right: 150px;
+  background-color: #96Dbdb;
+}
+.card1 .text1 {
+  position: absolute;
+  width: 389px;
+  left: 733px;
+  top: 120px;
+}
+.card1 .text1 .side1 {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  font-size: 48px;
+  font-family: "Taviraj", serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 60px;
+  color: #333333;
+}
+.card1 .text1 .side2 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: larger;
+}
+.card1 .text1 .side3 {
+  background-color: #96Dbdb;
+  border: 1px solid #333333;
+}
+
+.card2 {
+  position: absolute;
+  width: 171px;
+  height: 0px;
+  left: 165px;
+  top: 892px;
+}
+
+.text2 {
+  position: absolute;
+  width: 228px;
+  height: 40px;
+  left: 360px;
+  top: 872px;
+  font-family: "Taviraj", serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 40px;
+  color: #333333;
+}
+
+.card3 .text3 .head {
+  position: absolute;
+  width: 290px;
+  height: 40px;
+  left: 191px;
+  top: 1129px;
+  font-family: "Taviraj", serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+.card3 .text3 p {
+  position: absolute;
+  width: 350px;
+  height: 90px;
+  left: 165px;
+  top: 1183px;
+  font-family: "Taviraj", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+.card3 .text3 button {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: flex-start;
+  padding: 14px 47px;
+  gap: 10px;
+  position: absolute;
+  width: 160px;
+  height: 55px;
+  left: 260px;
+  top: 1296px;
+  border: 1px solid #333333;
+  background-color: rgba(233, 255, 255, 0.5490196078);
+}
+.card3 .image2 {
+  position: absolute;
+  width: 626px;
+  height: 622.14px;
+  left: 705px;
+  top: 947px;
+}
+
+.type1 h2 {
+  position: absolute;
+  width: 169px;
+  height: 40px;
+  left: 246px;
+  top: 1715px;
+  font-family: "Taviraj", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-style: 30px;
+  line-height: 40px;
+  letter-spacing: 0.02rem;
+}
+.type1 p {
+  position: absolute;
+  width: 65px;
+  height: 0px;
+  left: 157px;
+  top: 1735px;
+}
+
+.card4 {
+  width: 540px;
+  height: 270px;
+  display: flex;
+  margin-top: 1170px;
+  justify-content: center;
+  margin-left: 330px;
+}
+.card4 .text6 {
+  background-color: #96Dbdb;
+  margin-right: 330px;
+}
+.card4 .text6 .textin1 h1 {
+  margin-right: 400px;
+  margin-left: 30px;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  left: 582px;
+  font-family: "Taviraj", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.03em;
+}
+.card4 .text6 .textin1 p {
+  position: absolute;
+  width: 253px;
+  height: 50px;
+  left: 182px;
+  top: 1912px;
+  font-family: "Taviraj", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+.card4 .text6 .textin1 h3 {
+  margin-top: 10px;
+  position: absolute;
+  width: 115px;
+  height: 27px;
+  left: 189px;
+  top: 1959px;
+  font-family: "Taviraj", serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 27px;
+  letter-spacing: 0.03rem;
+}
+.card4 .text6 .textin1 h3 p {
+  position: absolute;
+  width: 101px;
+  height: 0px;
+  left: 0px;
+  top: 10px;
+  margin-top: 20px;
+}
+.card4 .text6 .textin1 button {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 15px 47px;
+  gap: 10px;
+  position: absolute;
+  width: 183px;
+  height: 57px;
+  left: 190px;
+  top: 2014px;
+  background-color: #96Dbdb;
+}
+.card4 .text6 .textin2 {
+  position: absolute;
+  left: 473px;
+  top: 1810px;
+}
+.card4 .card5 {
+  display: flex;
+  position: absolute;
+  padding-right: 210px;
+  margin-left: 30px;
+  margin-top: 10px;
+  width: 540px;
+  height: 270px;
+  left: 750px;
+  top: 1800px;
+  background-color: #96Dbdb;
+}
+.card4 .card5 .text7 .big1 {
+  margin-left: 50px;
+  margin-top: 20px;
+  font-family: "Taviraj", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.03em;
+}
+.card4 .card5 .text7 .big2 {
+  font-family: "Taviraj", serif;
+  position: absolute;
+  top: 90px;
+  text-align: center;
+  margin-left: 30px;
+  margin-right: 270px;
+}
+.card4 .card5 .text7 .big3 {
+  margin-left: 40px;
+  margin-top: 70px;
+  margin-left: 50px;
+}
+.card4 .card5 .text7 .tag {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 15px 47px;
+  gap: 10px;
+  position: absolute;
+  width: 183px;
+  height: 57px;
+  left: 27px;
+  top: 207px;
+  background-color: #96Dbdb;
+}
+.card4 .card5 .textin3 {
+  margin-left: 140px;
+}
+
+.type6 h2 {
+  position: absolute;
+  width: 169px;
+  height: 40px;
+  left: 246px;
+  top: 2175px;
+  font-family: "Taviraj", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-style: 30px;
+  line-height: 40px;
+  letter-spacing: 0.02rem;
+}
+.type6 p {
+  position: absolute;
+  width: 65px;
+  height: 0px;
+  left: 157px;
+  top: 2195px;
+}
+
+.card12 {
+  position: absolute;
+  width: 1140px;
+  height: 270px;
+  left: 0px;
+  top: 55px;
+}
+.card12 .text8 {
+  position: absolute;
+  width: 1140px;
+  height: 270px;
+  left: 0px;
+  top: 400px;
+}
+.card12 .text8 .pol {
+  background-color: #96Dbdb;
+  position: absolute;
+  width: 540px;
+  height: 270px;
+  margin-left: 165px;
+  left: 0px;
+  top: 1810px;
+}
+.card12 .text8 .textin10 .space1 {
+  position: absolute;
+  width: 253px;
+  height: 32px;
+  left: 182px;
+  top: 1827px;
+  font-family: "Taviraj", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.03em;
+  background-color: #96Dbdb;
+}
+.card12 .text8 .textin10 .space2 {
+  position: absolute;
+  width: 253px;
+  height: 50px;
+  left: 182px;
+  top: 1912px;
+  font-family: "Taviraj", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+.card12 .text8 .textin10 .space3 {
+  margin-top: 10px;
+  position: absolute;
+  width: 115px;
+  height: 27px;
+  left: 189px;
+  top: 1959px;
+  font-family: "Taviraj", serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 27px;
+  letter-spacing: 0.03rem;
+}
+.card12 .text8 .textin10 .space3 p {
+  position: absolute;
+  width: 101px;
+  height: 0px;
+  left: 0px;
+  top: 10px;
+  margin-top: 20px;
+}
+.card12 .text8 .textin10 .space4 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 15px 47px;
+  gap: 10px;
+  position: absolute;
+  width: 183px;
+  height: 57px;
+  left: 190px;
+  top: 2014px;
+  background-color: #96Dbdb;
+}
+.card12 .text8 .textin12 {
+  position: absolute;
+  left: 473px;
+  top: 1810px;
+}
+.card12 .card7 {
+  display: flex;
+  position: absolute;
+  padding-right: 20px;
+  margin-left: 30px;
+  margin-top: 10px;
+  width: 540px;
+  height: 270px;
+  left: 750px;
+  top: 2200px;
+  background-color: #96Dbdb;
+}
+.card12 .card7 .text9 .big4 {
+  margin-left: 50px;
+  margin-top: 10px;
+  font-family: "Taviraj", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.03em;
+}
+.card12 .card7 .text9 .big5 {
+  margin-top: 10px;
+  font-family: "Taviraj", serif;
+  position: absolute;
+  top: 70px;
+  align-items: center;
+  margin-left: 30px;
+  margin-right: 270px;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 27px;
+  letter-spacing: 0.03rem;
+}
+.card12 .card7 .text9 .big6 {
+  margin-left: 40px;
+  margin-top: 90px;
+  margin-left: 50px;
+}
+.card12 .card7 .text9 .tag2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 15px 47px;
+  gap: 10px;
+  position: absolute;
+  width: 183px;
+  height: 57px;
+  left: 20px;
+  top: 207px;
+  background-color: #96Dbdb;
+}
+.card12 .card7 .textin9 {
+  margin-left: 140px;
+}
+
+.grid .our2 {
+  position: absolute;
+  width: 229px;
+  left: 1027px;
+  top: 2648px;
+  height: 0px;
+  font-family: "Taviraj";
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: 400;
+  font-style: normal;
+}
+.grid .our2 .our3 {
+  position: absolute;
+  width: 65px;
+  left: -80px;
+  top: 20px;
+  height: 0px;
+}
+.grid .row1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 46px;
+  position: absolute;
+  width: 469px;
+  height: 288px;
+  left: 215px;
+  top: 2765px;
+  background-color: white;
+  box-shadow: 0px 4px 14px rgb(213, 213, 0);
+}
+.grid .row1 h1 {
+  position: absolute;
+  width: 150px;
+  height: 90px;
+  left: 250px;
+  top: 30.48px;
+  font-family: "Taviraj";
+  font-style: normal;
+  font-weight: 500px;
+  font-size: 20px;
+  line-height: 32px;
+  color: #333333;
+}
+.grid .row1 .low {
+  position: absolute;
+  width: 122px;
+  height: 32px;
+  left: 262px;
+  top: 168.48px;
+  font-family: "taviraj";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #333333;
+}
+.grid .row1 p {
+  position: absolute;
+  width: 55px;
+  height: 24px;
+  left: 262px;
+  top: 96.48px;
+  font-family: "taviraj";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #777777;
+}
+.grid .row1 button {
+  position: absolute;
+  box-sizing: border-box;
+  height: 46.04px;
+  left: 264px;
+  top: 211.48px;
+  border: 0.79375px solid #333333;
+  padding: 10px 25px 10px 25px;
+  background-color: #fff;
+}
+.grid .row0 {
+  position: absolute;
+  width: 315px;
+  height: 775px;
+  left: 0px;
+  top: 2679px;
+  background-color: #008080;
+}
+
+.row2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 46px;
+  position: absolute;
+  width: 469px;
+  height: 288px;
+  left: 757px;
+  top: 2770px;
+  background-color: white;
+  box-shadow: 0px 4px 14px rgb(213, 213, 0);
+}
+.row2 h1 {
+  position: absolute;
+  width: 150px;
+  height: 90px;
+  left: 250px;
+  top: 30.48px;
+  font-family: "Taviraj";
+  font-style: normal;
+  font-weight: 500px;
+  font-size: 20px;
+  line-height: 32px;
+  color: #333333;
+}
+.row2 .low {
+  position: absolute;
+  width: 122px;
+  height: 32px;
+  left: 262px;
+  top: 168.48px;
+  font-family: "taviraj";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #333333;
+}
+.row2 p {
+  position: absolute;
+  width: 55px;
+  height: 24px;
+  left: 262px;
+  top: 96.48px;
+  font-family: "taviraj";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #777777;
+}
+.row2 button {
+  position: absolute;
+  box-sizing: border-box;
+  height: 46.04px;
+  left: 264px;
+  top: 211.48px;
+  border: 0.79375px solid #333333;
+  padding: 10px 25px 10px 25px;
+  background-color: #fff;
+}
+
+.row3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 46px;
+  position: absolute;
+  width: 469px;
+  height: 288px;
+  left: 215px;
+  top: 3136px;
+  background-color: white;
+  box-shadow: 0px 4px 14px rgb(213, 213, 0);
+}
+.row3 h1 {
+  position: absolute;
+  width: 150px;
+  height: 90px;
+  left: 250px;
+  top: 30.48px;
+  font-family: "Taviraj";
+  font-style: normal;
+  font-weight: 500px;
+  font-size: 20px;
+  line-height: 32px;
+  color: #333333;
+}
+.row3 .low {
+  position: absolute;
+  width: 122px;
+  height: 32px;
+  left: 262px;
+  top: 168.48px;
+  font-family: "taviraj";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #333333;
+}
+.row3 p {
+  position: absolute;
+  width: 55px;
+  height: 24px;
+  left: 262px;
+  top: 96.48px;
+  font-family: "taviraj";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #777777;
+}
+.row3 button {
+  position: absolute;
+  box-sizing: border-box;
+  height: 46.04px;
+  left: 264px;
+  top: 211.48px;
+  border: 0.79375px solid #333333;
+  padding: 10px 25px 10px 25px;
+  background-color: #fff;
+}
+
+.row4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 46px;
+  position: absolute;
+  width: 469px;
+  height: 288px;
+  left: 757px;
+  top: 3136px;
+  background-color: white;
+  box-shadow: 0px 4px 14px rgb(213, 213, 0);
+}
+.row4 h1 {
+  position: absolute;
+  width: 150px;
+  height: 90px;
+  left: 250px;
+  top: 30.48px;
+  font-family: "Taviraj";
+  font-style: normal;
+  font-weight: 500px;
+  font-size: 20px;
+  line-height: 32px;
+  color: #333333;
+}
+.row4 .low {
+  position: absolute;
+  width: 122px;
+  height: 32px;
+  left: 262px;
+  top: 168.48px;
+  font-family: "taviraj";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #333333;
+}
+.row4 p {
+  position: absolute;
+  width: 55px;
+  height: 24px;
+  left: 262px;
+  top: 96.48px;
+  font-family: "taviraj";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #777777;
+}
+.row4 button {
+  position: absolute;
+  box-sizing: border-box;
+  height: 46.04px;
+  left: 264px;
+  top: 211.48px;
+  border: 0.79375px solid #333333;
+  padding: 10px 25px 10px 25px;
+  background-color: #fff;
+}
+
+.row5 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 46px;
+  position: absolute;
+  width: 469px;
+  height: 288px;
+  left: 215px;
+  top: 3501px;
+  background-color: white;
+  box-shadow: 0px 4px 14px rgb(213, 213, 0);
+}
+.row5 h1 {
+  position: absolute;
+  width: 150px;
+  height: 90px;
+  left: 250px;
+  top: 30.48px;
+  font-family: "Taviraj";
+  font-style: normal;
+  font-weight: 500px;
+  font-size: 20px;
+  line-height: 32px;
+  color: #333333;
+}
+.row5 .low {
+  position: absolute;
+  width: 122px;
+  height: 32px;
+  left: 262px;
+  top: 168.48px;
+  font-family: "taviraj";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #333333;
+}
+.row5 p {
+  position: absolute;
+  width: 55px;
+  height: 24px;
+  left: 262px;
+  top: 96.48px;
+  font-family: "taviraj";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #777777;
+}
+.row5 button {
+  position: absolute;
+  box-sizing: border-box;
+  height: 46.04px;
+  left: 264px;
+  top: 211.48px;
+  border: 0.79375px solid #333333;
+  padding: 10px 25px 10px 25px;
+  background-color: #fff;
+}
+
+.row6 {
+  position: absolute;
+  width: 720px;
+  height: 375px;
+  left: 720px;
+  top: 3457px;
+  background-color: #96Dbdb;
+  box-shadow: 0px 4px 14px rgb(213, 213, 0);
+}
+.row6 .high {
+  position: absolute;
+  width: 469px;
+  height: 288px;
+  left: 50px;
+  top: 40px;
+}
+.row6 .high h1 {
+  position: absolute;
+  width: 207px;
+  height: 64px;
+  left: 260px;
+  top: 30px;
+  font-family: "Taviraj";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  color: #333333;
+}
+.row6 .high .low {
+  position: absolute;
+  width: 122px;
+  height: 32px;
+  left: 262px;
+  top: 168.48px;
+  font-family: "taviraj";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #333333;
+}
+.row6 .high p {
+  position: absolute;
+  width: 55px;
+  height: 24px;
+  left: 262px;
+  top: 96.48px;
+  font-family: "taviraj";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #777777;
+}
+.row6 .high button {
+  position: absolute;
+  box-sizing: border-box;
+  height: 46.04px;
+  left: 264px;
+  top: 211.48px;
+  border: 0.79375px solid #333333;
+  padding: 10px 25px 10px 25px;
+  background-color: black;
+  color: #fff;
+}
+
+footer {
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  padding: 100px;
+  margin-top: 1775px;
+  background: #008080;
+}
+footer .foot1 {
+  position: absolute;
+  top: 3900px;
+  left: 100px;
+  color: #fff;
+}
+footer .foot2 {
+  position: absolute;
+  top: 4000px;
+  left: 100px;
+  color: #fff;
+}
+footer .foot3 {
+  position: absolute;
+  top: 3900px;
+  left: 400px;
+  color: #fff;
+}
+footer .foot4 {
+  position: absolute;
+  top: 4000px;
+  left: 400px;
+  color: white;
+}
+footer .foot5 {
+  position: absolute;
+  top: 3900px;
+  left: 900px;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 400;
+  font-family: "Taviraj";
+}
+footer .foot6 {
+  position: absolute;
+  top: 3950px;
+  left: 1190px;
+  font-size: 30px;
+  text-decoration: none;
+  border-bottom: 2px solid black;
+  color: #000000;
+  line-height: 35px;
+  letter-spacing: -1.125px;
+}/*# sourceMappingURL=style.css.map */
