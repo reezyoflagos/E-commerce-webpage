@@ -4,8 +4,10 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: rgba(233, 255, 255, 0.5490196078);
+@media (max-width: 576px) {
+  .body1 {
+    display: none;
+  }
 }
 
 .header {
@@ -15,12 +17,22 @@ body {
   margin-right: 100px;
   margin-left: 120px;
 }
+@media (max-width: 576px) {
+  .header {
+    display: none;
+  }
+}
 .header .logo {
   font-family: "Taviraj", serif;
   font-size: 28px;
   line-height: 48px;
   font-style: normal;
   color: #80753D;
+}
+@media (max-width: 576px) {
+  .header .logo {
+    display: none;
+  }
 }
 .header .header2 {
   display: flex;
@@ -49,6 +61,17 @@ body {
 @media (max-width: 576px) {
   .header .header2 .header3 .logo3 {
     display: none;
+  }
+}
+@media (max-width: 576px) {
+  .header .header2 .header .logo {
+    visibility: visible;
+    position: absolute;
+    width: 101px;
+    height: 48px;
+    left: 38px;
+    top: 35px;
+    font-size: 28px;
   }
 }
 .header .header4 {
@@ -1001,7 +1024,7 @@ body {
   color: #fff;
 }
 
-footer {
+.ending3 {
   left: 0px;
   right: 0px;
   top: 0px;
@@ -1010,35 +1033,35 @@ footer {
   background: #008080;
 }
 @media (max-width: 576px) {
-  footer {
+  .ending3 {
     display: none;
   }
 }
-footer .foot1 {
+.ending3 .foot1 {
   position: absolute;
   top: 3900px;
   left: 100px;
   color: #fff;
 }
-footer .foot2 {
+.ending3 .foot2 {
   position: absolute;
   top: 4000px;
   left: 100px;
   color: #fff;
 }
-footer .foot3 {
+.ending3 .foot3 {
   position: absolute;
   top: 3900px;
   left: 400px;
   color: #fff;
 }
-footer .foot4 {
+.ending3 .foot4 {
   position: absolute;
   top: 4000px;
   left: 400px;
   color: white;
 }
-footer .foot5 {
+.ending3 .foot5 {
   position: absolute;
   top: 3900px;
   left: 900px;
@@ -1047,7 +1070,7 @@ footer .foot5 {
   font-weight: 400;
   font-family: "Taviraj";
 }
-footer .foot6 {
+.ending3 .foot6 {
   position: absolute;
   top: 3950px;
   left: 1190px;
@@ -1057,4 +1080,685 @@ footer .foot6 {
   color: #000000;
   line-height: 35px;
   letter-spacing: -1.125px;
+}
+
+.body2 {
+  background-color: #96Dbdb;
+}
+@media (min-width: 992px) {
+  .body2 {
+    display: none;
+  }
+}
+@media (max-width: 576px) {
+  .body2 {
+    background-color: #e3f5f5;
+  }
+  .body2 .inline {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15%;
+    height: 75px;
+    line-height: 75px;
+    background-color: #e1f4f4;
+    box-shadow: 3px 3px 3px;
+  }
+  .body2 .navbar-brand {
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+  }
+}
+@media (max-width: 576px) and (max-width: 576px) {
+  .body2 .navbar-brand {
+    font-size: 25px;
+    text-decoration: none;
+    color: #80753D;
+  }
+}
+@media (max-width: 576px) {
+  .body2 .nav-list {
+    display: grid;
+  }
+  .body2 .nav-list .nav-item {
+    cursor: pointer;
+    height: 100%;
+    padding: 0 30px;
+    transition: 0.8s;
+  }
+  .body2 .nav-list .nav-item :hover {
+    color: #80753D;
+  }
+  .body2 .nav-list .nav-link {
+    color: whitesmoke;
+    font-size: 18px;
+    font-weight: 500;
+  }
+}
+@media (max-width: 576px) and (max-width: 935px) {
+  .body2 .inline {
+    padding: 0 2rem;
+  }
+  .body2 .nav-item {
+    padding: 0 20px;
+  }
+}
+@media (max-width: 576px) {
+  .body2 .nav-list {
+    display: grid;
+    width: 100%;
+    position: absolute;
+    background: #008080;
+    width: 100%;
+    top: 75px;
+    left: 0;
+    transform: translateY(-100%);
+    z-index: -10;
+    transition: 0.6s;
+    list-style: none;
+  }
+  .body2 .nav-item {
+    padding-left: 35px;
+  }
+  .body2 .navbar-toggler {
+    display: grid !important;
+  }
+}
+.body2 .navbar-toggler {
+  display: none;
+  height: 30px;
+  margin: 18px -10px 0 0;
+  cursor: pointer;
+}
+.body2 .navbar-toggler .bar {
+  width: 30px;
+  height: 3px;
+  margin-bottom: 10px;
+  background: black;
+  border-radius: 10%;
+  transition: 0.4s;
+}
+.body2 input {
+  display: none;
+}
+.body2 input:checked ~ nav .nav-list {
+  transform: translateY(0);
+}
+.body2 input:checked ~ nav .navbar-toggler {
+  margin-top: 35px;
+}
+.body2 input:checked ~ nav .navbar-toggler .bar:nth-child(1) {
+  position: absolute;
+  transform: rotate(45deg);
+}
+.body2 input:checked ~ nav .navbar-toggler .bar:nth-child(2) {
+  display: none;
+}
+.body2 input:checked ~ nav .navbar-toggler .bar:nth-child(3) {
+  transform: rotate(-45deg);
+}
+@media (min-width: 992px) {
+  .body2 {
+    display: none;
+  }
+}
+@media (max-width: 935px) {
+  .body2 .inline {
+    padding: 0 2rem;
+  }
+}
+.body2 .inline10 {
+  position: absolute;
+  width: 390px;
+  height: 624px;
+  left: 0px;
+  top: 50px;
+  background-color: #96Dbdb;
+  z-index: -200;
+}
+.body2 .inline10 .here {
+  position: absolute;
+  width: 214px;
+  height: 50px;
+  left: 79px;
+  top: 370px;
+  text-align: center;
+  font-family: "Taviraj";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 60px;
+  letter-spacing: 0.02em;
+}
+.body2 .inline10 p {
+  z-index: -200;
+}
+.body2 .inline10 .inline11 {
+  position: absolute;
+  width: 214px;
+  height: 72px;
+  top: 450px;
+  left: 82px;
+  text-align: center;
+}
+.body2 .inline10 button {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 15px 47px;
+  gap: 10px;
+  position: absolute;
+  width: 195px;
+  height: 54px;
+  top: 540px;
+  left: 96px;
+  background-color: #96Dbdb;
+}
+.body2 .inline10 button a {
+  font-family: "Taviraj";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+@media (min-width: 992px) {
+  .body2 .inline10 {
+    position: absolute;
+    width: 100%;
+    height: 624px;
+    left: 100px;
+    top: 50px;
+    padding-left: 20px;
+    background-color: #008080;
+    z-index: -200;
+  }
+}
+.body2 .inline10 .inline12 {
+  position: absolute;
+  width: 270px;
+  left: 0px;
+  height: 21px;
+  top: 900px;
+}
+.body2 .inline10 .line {
+  position: absolute;
+  width: 87.32px;
+  height: 60px;
+  top: -170px;
+  left: 180px;
+  border-top: 1px solid black;
+}
+.body2 .inline10 .linerecent {
+  position: absolute;
+  width: 87.32px;
+  height: 60px;
+  top: -200px;
+  left: 290px;
+  font-size: 26px;
+  font-weight: 600;
+}
+.body2 .mobile {
+  position: absolute;
+  left: 0px;
+  top: 888px;
+}
+.body2 .h30 {
+  position: absolute;
+  width: 290px;
+  top: 1508px;
+  left: 60px;
+  font-family: "taviraj";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+}
+.body2 .p3 {
+  position: absolute;
+  width: 350px;
+  height: 120px;
+  top: 1562px;
+  left: 18px;
+  font-family: "taviraj";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+.body2 .inbtn {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 14px 47px;
+  gap: 10px;
+  position: absolute;
+  width: 171px;
+  height: 55px;
+  top: 1697px;
+  border: 1px solid black;
+  left: 120px;
+}
+.body2 .inbtn .inbtn1 {
+  width: 77px;
+  height: 27px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: 0.02em;
+  color: #000000;
+  flex: none;
+  flex-grow: 0;
+}
+.body2 .bestseller .line2 {
+  position: absolute;
+  width: 87.32px;
+  left: 140px;
+  top: 1824px;
+  border-top: 1px solid black;
+}
+.body2 .bestseller .bestext {
+  position: absolute;
+  width: 132px;
+  top: 1800px;
+  left: 246px;
+  height: 26px;
+  font-size: 24px;
+  font-style: normal;
+  font-family: "taviraj";
+  line-height: 50px;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+}
+.body2 .luxirous {
+  position: absolute;
+  width: 333px;
+  height: 230px;
+  top: 1887px;
+  left: 57px;
+  background-color: #96Dbdb;
+}
+.body2 .luxirous .lux1 {
+  position: absolute;
+  width: 175px;
+  height: 24px;
+  left: 29.31px;
+  top: 11px;
+  font-size: 18.044px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  font-style: normal;
+}
+.body2 .luxirous .lux2 {
+  position: absolute;
+  width: 190.22px;
+  height: 37.59px;
+  top: 51.3px;
+  left: 29.31px;
+  font-family: "taviraj";
+  font-size: 16.0296px;
+  line-height: 18px;
+  font-weight: 700;
+  font-style: normal;
+  color: #777777;
+}
+.body2 .luxirous .lux3 {
+  position: absolute;
+  width: 86.46px;
+  height: 20.3px;
+  left: 29.31px;
+  top: 110.99px;
+}
+.body2 .luxirous .lux4 {
+  position: absolute;
+  width: 137.59px;
+  left: 29.31px;
+  height: 42.86px;
+  top: 174.09px;
+  font-family: "taviraj";
+  font-size: 12.096px;
+  background-color: #96Dbdb;
+}
+.body2 .luxirous .image2 {
+  position: absolute;
+  left: 242px;
+}
+.body2 .latest {
+  position: absolute;
+  width: 16px;
+  height: 21px;
+  top: 2161px;
+  left: 260px;
+  font-size: 21px;
+  font-style: normal;
+  font-family: "taviraj";
+  line-height: 20px;
+  letter-spacing: 0.02em;
+}
+.body2 .luxirous2 {
+  position: absolute;
+  width: 339px;
+  height: 249px;
+  top: 2229px;
+  left: 51px;
+  background-color: #96Dbdb;
+}
+.body2 .luxirous2 .lux6 {
+  position: absolute;
+  width: 189px;
+  height: 37.41px;
+  left: 29.31px;
+  top: 76.87px;
+  font-family: "taviraj";
+  font-size: 16.0296px;
+  line-height: 18px;
+  font-weight: 700;
+  font-style: normal;
+  color: #777777;
+}
+.body2 .luxirous2 .lux7 {
+  position: absolute;
+  width: 86.04px;
+  height: 20.03px;
+  top: 143.51px;
+  left: 29.31px;
+  font-family: "taviraj";
+  font-size: 16.096px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+}
+.body2 .luxirous2 .lux8 {
+  position: absolute;
+  width: 80.91px;
+  height: 57.19px;
+  top: 180.41px;
+  left: 29.31px;
+}
+.body2 .luxirous2 .lux9 {
+  position: absolute;
+  width: 136.91px;
+  left: 29.31px;
+  height: 42.64px;
+  top: 200px;
+  background-color: #96Dbdb;
+  font-family: "taviraj";
+  font-size: 12.096px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+}
+.body2 .ourproduct {
+  position: absolute;
+  width: 276px;
+  left: 62px;
+  height: 21px;
+  top: 2524px;
+}
+.body2 .ourproduct .ourproduct2 {
+  position: absolute;
+  width: 117px;
+  height: 21px;
+  left: 172px;
+  top: 3px;
+  font-size: 24px;
+  font-weight: 700;
+  font-style: normal;
+  font-family: "taviraj";
+  line-height: 20px;
+  text-align: left;
+}
+.body2 .maple {
+  position: absolute;
+  width: 251px;
+  height: 510.3px;
+  top: 2610px;
+  left: 62px;
+  background-color: #ffffff;
+  gap: 23px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 16px;
+}
+.body2 .maple .maple2 {
+  width: 166px;
+  height: 141.3px;
+}
+.body2 .maple .maple2 h3 {
+  position: absolute;
+  width: 165px;
+  height: 26px;
+  left: 17px;
+  top: 270px;
+  font-family: "taviraj";
+  font-weight: 500;
+  font-style: normal;
+  font-size: 19px;
+}
+.body2 .maple .maple2 p {
+  position: absolute;
+  width: 43px;
+  top: 330px;
+  left: 17px;
+  height: 19px;
+  color: #777777;
+}
+.body2 .maple .maple2 h2 {
+  position: absolute;
+  width: 96px;
+  height: 26px;
+  top: 390px;
+  left: 17px;
+}
+.body2 .maple .maple2 button {
+  position: absolute;
+  width: 100.13px;
+  height: 36.3px;
+  left: 16px;
+  top: 459px;
+  background-color: #ffffff;
+  padding: 10px;
+  gap: 23px;
+}
+.body2 .maple3 {
+  position: absolute;
+  width: 251px;
+  height: 510.3px;
+  top: 3178px;
+  left: 62px;
+  background-color: #ffffff;
+  gap: 23px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 16px;
+}
+.body2 .maple3 .maple5 {
+  width: 166px;
+  height: 141.3px;
+}
+.body2 .maple3 .maple5 h3 {
+  position: absolute;
+  width: 165px;
+  height: 26px;
+  left: 17px;
+  top: 270px;
+  font-family: "taviraj";
+  font-weight: 500;
+  font-style: normal;
+  font-size: 19px;
+}
+.body2 .maple3 .maple5 p {
+  position: absolute;
+  width: 43px;
+  top: 330px;
+  left: 17px;
+  height: 19px;
+  color: #777777;
+}
+.body2 .maple3 .maple5 h2 {
+  position: absolute;
+  width: 96px;
+  height: 26px;
+  top: 390px;
+  left: 17px;
+}
+.body2 .maple3 .maple5 button {
+  position: absolute;
+  width: 100.13px;
+  height: 36.3px;
+  left: 16px;
+  top: 459px;
+  background-color: #ffffff;
+  padding: 10px;
+  gap: 23px;
+}
+.body2 .maple9 {
+  position: absolute;
+  width: 327px;
+  height: 510.3px;
+  top: 3750px;
+  left: 62px;
+  background-color: #96Dbdb;
+  gap: 23px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 16px;
+  box-shadow: -5.00503px 5.00503px 25.0251px rgba(217, 63, 63, 0.3);
+}
+.body2 .maple9 .maple11 {
+  width: 166px;
+  height: 141.3px;
+}
+.body2 .maple9 .maple11 h3 {
+  position: absolute;
+  width: 165px;
+  height: 26px;
+  left: 17px;
+  top: 270px;
+  font-family: "taviraj";
+  font-weight: 500;
+  font-style: normal;
+  font-size: 19px;
+}
+.body2 .maple9 .maple11 p {
+  position: absolute;
+  width: 43px;
+  top: 330px;
+  left: 17px;
+  height: 19px;
+  color: #777777;
+}
+.body2 .maple9 .maple11 h2 {
+  position: absolute;
+  width: 96px;
+  height: 26px;
+  top: 390px;
+  left: 17px;
+}
+.body2 .maple9 .maple11 button {
+  position: absolute;
+  width: 100.13px;
+  height: 36.3px;
+  left: 16px;
+  top: 459px;
+  background-color: #000000;
+  padding: 10px;
+  gap: 23px;
+  color: whitesmoke;
+}
+.body2 .ending {
+  position: absolute;
+  width: 390px;
+  height: 600px;
+  left: 0px;
+  top: 4342px;
+  background-color: #008080;
+}
+.body2 .ending .h31 {
+  position: absolute;
+  height: 100px;
+  left: 30.6%;
+  right: 30.6%;
+  top: calc(20% - 50px + 7px);
+  font-size: 19px;
+  font-family: "taviraj";
+  font-weight: 500;
+  color: whitesmoke;
+}
+.body2 .ending .h32 {
+  position: absolute;
+  height: 100px;
+  left: 30.6%;
+  right: 30.6%;
+  top: calc(20% - 50px + 80px);
+  font-size: 19px;
+  font-family: "taviraj";
+  font-weight: 500;
+  color: whitesmoke;
+}
+.body2 .ending .h33 {
+  position: absolute;
+  height: 100px;
+  left: 30.6%;
+  right: 30.6%;
+  padding-left: 20px;
+  top: calc(20% - 50px + 180px);
+  font-size: 19px;
+  font-family: "taviraj";
+  font-weight: 500;
+  color: whitesmoke;
+}
+.body2 .ending .h34 {
+  position: absolute;
+  height: 100px;
+  left: 30.6%;
+  right: 30.6%;
+  padding-left: 20px;
+  top: calc(20% - 50px + 230px);
+  font-size: 19px;
+  font-family: "taviraj";
+  font-weight: 500;
+  color: whitesmoke;
+}
+.body2 .ending .h35 {
+  position: absolute;
+  height: 102px;
+  left: 10.8%;
+  right: 8.27%;
+  top: calc(50% - 51px + 140px);
+  text-align: right;
+  color: whitesmoke;
+  font-family: "taviraj";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 51px;
+  letter-spacing: -1.125px;
+}
+.body2 .ending .h36 {
+  position: absolute;
+  height: 41px;
+  left: 49.73%;
+  right: 9.87%;
+  top: calc(50% - 61.5px + 279.5px);
+  font-weight: 400;
+  font-style: normal;
+  line-height: 41px;
+  font-family: "taviraj";
+  letter-spacing: -1.125px;
+}
+.body2 .ending .h37 {
+  position: absolute;
+  height: 43px;
+  left: 49.73px;
+  right: 9.87px;
+  top: calc(50% - 61.5px + 329.5px);
+  border-top: 2px solid #000;
+  margin-left: 150px;
+  margin-right: 35px;
 }/*# sourceMappingURL=style.css.map */
