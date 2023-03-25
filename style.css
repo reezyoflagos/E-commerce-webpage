@@ -1083,60 +1083,58 @@
 }
 
 .body2 {
-  background-color: #96Dbdb;
+  background-color: #e1f4f4;
 }
 @media (min-width: 992px) {
   .body2 {
     display: none;
   }
 }
-@media (max-width: 576px) {
+@media (min-width: 768px) {
   .body2 {
-    background-color: #e3f5f5;
-  }
-  .body2 .inline {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 15%;
-    height: 75px;
-    line-height: 75px;
-    background-color: #e1f4f4;
-    box-shadow: 3px 3px 3px;
-  }
-  .body2 .navbar-brand {
-    color: #ffffff;
-    font-size: 28px;
-    font-weight: 500;
-    letter-spacing: 0.5px;
+    display: none;
   }
 }
-@media (max-width: 576px) and (max-width: 576px) {
+.body2 .inline {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15%;
+  height: 75px;
+  line-height: 75px;
+  background-color: #e1f4f4;
+  box-shadow: 3px 3px 3px;
+}
+.body2 .navbar-brand {
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+@media (max-width: 576px) {
   .body2 .navbar-brand {
     font-size: 25px;
     text-decoration: none;
     color: #80753D;
   }
 }
-@media (max-width: 576px) {
-  .body2 .nav-list {
-    display: grid;
-  }
-  .body2 .nav-list .nav-item {
-    cursor: pointer;
-    height: 100%;
-    padding: 0 30px;
-    transition: 0.8s;
-  }
-  .body2 .nav-list .nav-item :hover {
-    color: #80753D;
-  }
-  .body2 .nav-list .nav-link {
-    color: whitesmoke;
-    font-size: 18px;
-    font-weight: 500;
-  }
+.body2 .nav-list {
+  display: grid;
 }
-@media (max-width: 576px) and (max-width: 935px) {
+.body2 .nav-list .nav-item {
+  cursor: pointer;
+  height: 100%;
+  padding: 0 30px;
+  transition: 0.8s;
+}
+.body2 .nav-list .nav-item :hover {
+  color: #80753D;
+}
+.body2 .nav-list .nav-link {
+  color: whitesmoke;
+  font-size: 18px;
+  font-weight: 500;
+}
+@media (max-width: 935px) {
   .body2 .inline {
     padding: 0 2rem;
   }
@@ -1144,8 +1142,9 @@
     padding: 0 20px;
   }
 }
+
 @media (max-width: 576px) {
-  .body2 .nav-list {
+  .nav-list {
     display: grid;
     width: 100%;
     position: absolute;
@@ -1158,20 +1157,21 @@
     transition: 0.6s;
     list-style: none;
   }
-  .body2 .nav-item {
+  .nav-item {
     padding-left: 35px;
   }
-  .body2 .navbar-toggler {
+  .navbar-toggler {
     display: grid !important;
   }
 }
-.body2 .navbar-toggler {
+.navbar-toggler {
   display: none;
   height: 30px;
   margin: 18px -10px 0 0;
   cursor: pointer;
 }
-.body2 .navbar-toggler .bar {
+
+.navbar-toggler .bar {
   width: 30px;
   height: 3px;
   margin-bottom: 10px;
@@ -1179,36 +1179,43 @@
   border-radius: 10%;
   transition: 0.4s;
 }
-.body2 input {
+
+input {
   display: none;
 }
-.body2 input:checked ~ nav .nav-list {
+
+input:checked ~ nav .nav-list {
   transform: translateY(0);
 }
-.body2 input:checked ~ nav .navbar-toggler {
+
+input:checked ~ nav .navbar-toggler {
   margin-top: 35px;
 }
-.body2 input:checked ~ nav .navbar-toggler .bar:nth-child(1) {
+
+input:checked ~ nav .navbar-toggler .bar:nth-child(1) {
   position: absolute;
   transform: rotate(45deg);
 }
-.body2 input:checked ~ nav .navbar-toggler .bar:nth-child(2) {
+
+input:checked ~ nav .navbar-toggler .bar:nth-child(2) {
   display: none;
 }
-.body2 input:checked ~ nav .navbar-toggler .bar:nth-child(3) {
+
+input:checked ~ nav .navbar-toggler .bar:nth-child(3) {
   transform: rotate(-45deg);
 }
+
 @media (min-width: 992px) {
-  .body2 {
+  body {
     display: none;
   }
 }
 @media (max-width: 935px) {
-  .body2 .inline {
+  .inline {
     padding: 0 2rem;
   }
 }
-.body2 .inline10 {
+.inline10 {
   position: absolute;
   width: 390px;
   height: 624px;
@@ -1217,7 +1224,7 @@
   background-color: #96Dbdb;
   z-index: -200;
 }
-.body2 .inline10 .here {
+.inline10 .here {
   position: absolute;
   width: 214px;
   height: 50px;
@@ -1231,10 +1238,10 @@
   line-height: 60px;
   letter-spacing: 0.02em;
 }
-.body2 .inline10 p {
+.inline10 p {
   z-index: -200;
 }
-.body2 .inline10 .inline11 {
+.inline10 .inline11 {
   position: absolute;
   width: 214px;
   height: 72px;
@@ -1242,7 +1249,7 @@
   left: 82px;
   text-align: center;
 }
-.body2 .inline10 button {
+.inline10 button {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -1255,7 +1262,7 @@
   left: 96px;
   background-color: #96Dbdb;
 }
-.body2 .inline10 button a {
+.inline10 button a {
   font-family: "Taviraj";
   font-size: 15px;
   font-style: normal;
@@ -1265,7 +1272,7 @@
   text-align: center;
 }
 @media (min-width: 992px) {
-  .body2 .inline10 {
+  .inline10 {
     position: absolute;
     width: 100%;
     height: 624px;
@@ -1276,14 +1283,14 @@
     z-index: -200;
   }
 }
-.body2 .inline10 .inline12 {
+.inline10 .inline12 {
   position: absolute;
   width: 270px;
   left: 0px;
   height: 21px;
   top: 900px;
 }
-.body2 .inline10 .line {
+.inline10 .line {
   position: absolute;
   width: 87.32px;
   height: 60px;
@@ -1291,7 +1298,7 @@
   left: 180px;
   border-top: 1px solid black;
 }
-.body2 .inline10 .linerecent {
+.inline10 .linerecent {
   position: absolute;
   width: 87.32px;
   height: 60px;
@@ -1300,12 +1307,14 @@
   font-size: 26px;
   font-weight: 600;
 }
-.body2 .mobile {
+
+.mobile {
   position: absolute;
   left: 0px;
   top: 888px;
 }
-.body2 .h30 {
+
+.h30 {
   position: absolute;
   width: 290px;
   top: 1508px;
@@ -1315,7 +1324,8 @@
   font-weight: 700;
   font-size: 18px;
 }
-.body2 .p3 {
+
+.p3 {
   position: absolute;
   width: 350px;
   height: 120px;
@@ -1328,7 +1338,8 @@
   text-align: center;
   letter-spacing: 0.02em;
 }
-.body2 .inbtn {
+
+.inbtn {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -1341,7 +1352,7 @@
   border: 1px solid black;
   left: 120px;
 }
-.body2 .inbtn .inbtn1 {
+.inbtn .inbtn1 {
   width: 77px;
   height: 27px;
   font-weight: 700;
@@ -1352,14 +1363,15 @@
   flex: none;
   flex-grow: 0;
 }
-.body2 .bestseller .line2 {
+
+.bestseller .line2 {
   position: absolute;
   width: 87.32px;
   left: 140px;
   top: 1824px;
   border-top: 1px solid black;
 }
-.body2 .bestseller .bestext {
+.bestseller .bestext {
   position: absolute;
   width: 132px;
   top: 1800px;
@@ -1372,7 +1384,8 @@
   letter-spacing: 0.02em;
   font-weight: 600;
 }
-.body2 .luxirous {
+
+.luxirous {
   position: absolute;
   width: 333px;
   height: 230px;
@@ -1380,7 +1393,7 @@
   left: 57px;
   background-color: #96Dbdb;
 }
-.body2 .luxirous .lux1 {
+.luxirous .lux1 {
   position: absolute;
   width: 175px;
   height: 24px;
@@ -1392,7 +1405,7 @@
   letter-spacing: 0.03em;
   font-style: normal;
 }
-.body2 .luxirous .lux2 {
+.luxirous .lux2 {
   position: absolute;
   width: 190.22px;
   height: 37.59px;
@@ -1405,14 +1418,14 @@
   font-style: normal;
   color: #777777;
 }
-.body2 .luxirous .lux3 {
+.luxirous .lux3 {
   position: absolute;
   width: 86.46px;
   height: 20.3px;
   left: 29.31px;
   top: 110.99px;
 }
-.body2 .luxirous .lux4 {
+.luxirous .lux4 {
   position: absolute;
   width: 137.59px;
   left: 29.31px;
@@ -1422,11 +1435,12 @@
   font-size: 12.096px;
   background-color: #96Dbdb;
 }
-.body2 .luxirous .image2 {
+.luxirous .image2 {
   position: absolute;
   left: 242px;
 }
-.body2 .latest {
+
+.latest {
   position: absolute;
   width: 16px;
   height: 21px;
@@ -1438,7 +1452,8 @@
   line-height: 20px;
   letter-spacing: 0.02em;
 }
-.body2 .luxirous2 {
+
+.luxirous2 {
   position: absolute;
   width: 339px;
   height: 249px;
@@ -1446,7 +1461,7 @@
   left: 51px;
   background-color: #96Dbdb;
 }
-.body2 .luxirous2 .lux6 {
+.luxirous2 .lux6 {
   position: absolute;
   width: 189px;
   height: 37.41px;
@@ -1459,7 +1474,7 @@
   font-style: normal;
   color: #777777;
 }
-.body2 .luxirous2 .lux7 {
+.luxirous2 .lux7 {
   position: absolute;
   width: 86.04px;
   height: 20.03px;
@@ -1471,14 +1486,14 @@
   line-height: 20px;
   letter-spacing: 0.02em;
 }
-.body2 .luxirous2 .lux8 {
+.luxirous2 .lux8 {
   position: absolute;
   width: 80.91px;
   height: 57.19px;
   top: 180.41px;
   left: 29.31px;
 }
-.body2 .luxirous2 .lux9 {
+.luxirous2 .lux9 {
   position: absolute;
   width: 136.91px;
   left: 29.31px;
@@ -1491,14 +1506,15 @@
   line-height: 20px;
   letter-spacing: 0.02em;
 }
-.body2 .ourproduct {
+
+.ourproduct {
   position: absolute;
   width: 276px;
   left: 62px;
   height: 21px;
   top: 2524px;
 }
-.body2 .ourproduct .ourproduct2 {
+.ourproduct .ourproduct2 {
   position: absolute;
   width: 117px;
   height: 21px;
@@ -1511,7 +1527,8 @@
   line-height: 20px;
   text-align: left;
 }
-.body2 .maple {
+
+.maple {
   position: absolute;
   width: 251px;
   height: 510.3px;
@@ -1524,11 +1541,11 @@
   align-items: flex-start;
   padding: 16px;
 }
-.body2 .maple .maple2 {
+.maple .maple2 {
   width: 166px;
   height: 141.3px;
 }
-.body2 .maple .maple2 h3 {
+.maple .maple2 h3 {
   position: absolute;
   width: 165px;
   height: 26px;
@@ -1539,7 +1556,7 @@
   font-style: normal;
   font-size: 19px;
 }
-.body2 .maple .maple2 p {
+.maple .maple2 p {
   position: absolute;
   width: 43px;
   top: 330px;
@@ -1547,14 +1564,14 @@
   height: 19px;
   color: #777777;
 }
-.body2 .maple .maple2 h2 {
+.maple .maple2 h2 {
   position: absolute;
   width: 96px;
   height: 26px;
   top: 390px;
   left: 17px;
 }
-.body2 .maple .maple2 button {
+.maple .maple2 button {
   position: absolute;
   width: 100.13px;
   height: 36.3px;
@@ -1564,7 +1581,8 @@
   padding: 10px;
   gap: 23px;
 }
-.body2 .maple3 {
+
+.maple3 {
   position: absolute;
   width: 251px;
   height: 510.3px;
@@ -1577,11 +1595,11 @@
   align-items: flex-start;
   padding: 16px;
 }
-.body2 .maple3 .maple5 {
+.maple3 .maple5 {
   width: 166px;
   height: 141.3px;
 }
-.body2 .maple3 .maple5 h3 {
+.maple3 .maple5 h3 {
   position: absolute;
   width: 165px;
   height: 26px;
@@ -1592,7 +1610,7 @@
   font-style: normal;
   font-size: 19px;
 }
-.body2 .maple3 .maple5 p {
+.maple3 .maple5 p {
   position: absolute;
   width: 43px;
   top: 330px;
@@ -1600,14 +1618,14 @@
   height: 19px;
   color: #777777;
 }
-.body2 .maple3 .maple5 h2 {
+.maple3 .maple5 h2 {
   position: absolute;
   width: 96px;
   height: 26px;
   top: 390px;
   left: 17px;
 }
-.body2 .maple3 .maple5 button {
+.maple3 .maple5 button {
   position: absolute;
   width: 100.13px;
   height: 36.3px;
@@ -1617,7 +1635,8 @@
   padding: 10px;
   gap: 23px;
 }
-.body2 .maple9 {
+
+.maple9 {
   position: absolute;
   width: 327px;
   height: 510.3px;
@@ -1631,11 +1650,11 @@
   padding: 16px;
   box-shadow: -5.00503px 5.00503px 25.0251px rgba(217, 63, 63, 0.3);
 }
-.body2 .maple9 .maple11 {
+.maple9 .maple11 {
   width: 166px;
   height: 141.3px;
 }
-.body2 .maple9 .maple11 h3 {
+.maple9 .maple11 h3 {
   position: absolute;
   width: 165px;
   height: 26px;
@@ -1646,7 +1665,7 @@
   font-style: normal;
   font-size: 19px;
 }
-.body2 .maple9 .maple11 p {
+.maple9 .maple11 p {
   position: absolute;
   width: 43px;
   top: 330px;
@@ -1654,14 +1673,14 @@
   height: 19px;
   color: #777777;
 }
-.body2 .maple9 .maple11 h2 {
+.maple9 .maple11 h2 {
   position: absolute;
   width: 96px;
   height: 26px;
   top: 390px;
   left: 17px;
 }
-.body2 .maple9 .maple11 button {
+.maple9 .maple11 button {
   position: absolute;
   width: 100.13px;
   height: 36.3px;
@@ -1672,15 +1691,16 @@
   gap: 23px;
   color: whitesmoke;
 }
-.body2 .ending {
+
+.ending {
   position: absolute;
   width: 390px;
-  height: 600px;
+  height: 640px;
   left: 0px;
-  top: 4342px;
+  top: 4312px;
   background-color: #008080;
 }
-.body2 .ending .h31 {
+.ending .h31 {
   position: absolute;
   height: 100px;
   left: 30.6%;
@@ -1691,7 +1711,7 @@
   font-weight: 500;
   color: whitesmoke;
 }
-.body2 .ending .h32 {
+.ending .h32 {
   position: absolute;
   height: 100px;
   left: 30.6%;
@@ -1702,7 +1722,7 @@
   font-weight: 500;
   color: whitesmoke;
 }
-.body2 .ending .h33 {
+.ending .h33 {
   position: absolute;
   height: 100px;
   left: 30.6%;
@@ -1714,7 +1734,7 @@
   font-weight: 500;
   color: whitesmoke;
 }
-.body2 .ending .h34 {
+.ending .h34 {
   position: absolute;
   height: 100px;
   left: 30.6%;
@@ -1726,7 +1746,7 @@
   font-weight: 500;
   color: whitesmoke;
 }
-.body2 .ending .h35 {
+.ending .h35 {
   position: absolute;
   height: 102px;
   left: 10.8%;
@@ -1740,7 +1760,7 @@
   line-height: 51px;
   letter-spacing: -1.125px;
 }
-.body2 .ending .h36 {
+.ending .h36 {
   position: absolute;
   height: 41px;
   left: 49.73%;
@@ -1752,7 +1772,7 @@
   font-family: "taviraj";
   letter-spacing: -1.125px;
 }
-.body2 .ending .h37 {
+.ending .h37 {
   position: absolute;
   height: 43px;
   left: 49.73px;

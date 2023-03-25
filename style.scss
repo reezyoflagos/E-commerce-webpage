@@ -1166,10 +1166,16 @@
                 }
             }
 .body2{
+    background-color:#e1f4f4;
     @media(min-width:992px){
         display: none;
     }
-    @media(max-width:576px){background-color:#e3f5f5;
+    @media(min-width:768px){
+        
+            display: none;
+        }
+    
+   
    
     .inline{
         display: flex;
@@ -1298,8 +1304,9 @@
     }
 
     @media(min-width:992px){
-        display: none;}
-        background-color:#96Dbdb;
+        body{
+        display : none;}
+    }
 
         @media (max-width: 935px) {
 
@@ -1806,9 +1813,9 @@
 .ending{
     position: absolute;
     width:390px ;
-    height:600px;
+    height:640px;
     left:0px;
-    top: 4342px;
+    top: 4312px;
     background-color: #008080;
     .h31{
         position: absolute;
@@ -1900,7 +1907,7 @@
 
 }
    }
-}
+
     
 
 
